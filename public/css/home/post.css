@@ -1,0 +1,143 @@
+.container-user {
+    width: 100%;
+}
+
+.dropdown,
+.filters {
+    padding: 10px;
+    background-color: var(--dark);
+}
+
+.posts-area {
+    height: 100vh;
+    background-color: var(--grey);
+}
+
+.dropdown ion-icon {
+    color: var(--dark);
+    font-size: 64px;
+}
+
+.area-btn-new-post {
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.btn-new-post {
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: var(--deep-dark);
+    border-radius: 25px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-new-post:hover {
+    color: var(--white);
+    background-color: var(--dark);
+}
+
+.user-dropdown {
+    width: 180px;
+    outline: none;
+    border: none;
+    background: none;
+    color: var(--dark);
+}
+
+.user-dropdown span {
+    font-size: 24px;
+}
+
+.dropdown-area {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.dropdown-area:hover {
+    background-color: var(--grey);
+}
+
+.dropdown-menu {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu .area {
+    border-bottom: 1px solid var(--dark);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.area a:hover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
+
+.post-home {
+    padding: 10px;
+}
+
+.post-header button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.post-header ion-icon {
+    color: var(--white);
+    font-size: 26px;
+}
+
+.post-header ion-icon:hover {
+    color: var(--grey);
+    font-size: 28px;
+}
+
+.posts-view {
+    margin: 10px;
+    background-color: var(--deep-dark-low);
+    border-radius: 12px;
+}
+
+.new-post-area {
+    margin: 10px;
+    background-color: var(--deep-dark-low);
+    border-radius: 12px;
+}
+
+.navigation-links {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-link {
+    width: 180px;
+    height: 65px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.navigation-link:hover {
+    background-color: var(--grey);
+}
+
+.navigation-link ion-icon,
+.navigation-link a {
+    color: var(--dark);
+    font-size: 24px;
+    text-decoration: none;
+}

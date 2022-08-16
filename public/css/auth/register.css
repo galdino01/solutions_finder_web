@@ -1,0 +1,16 @@
+.title-register,
+.info-register {
+    display: none;
+}
+
+.title-left {
+    font-weight: 700;
+}
+
+.title-right {
+    font-weight: 300;
+}
+
+.rocket {
+    color: var(--white);
+}

@@ -1,0 +1,33 @@
+.actions button,
+.actions a {
+    color: var(--white);
+    padding: 5px;
+    font-size: 25px;
+}
+
+.actions button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.edit-user {
+    color: var(--white);
+    padding: 2px;
+    font-size: 20px;
+}
+
+.actions button:hover,
+.actions a:hover {
+    font-size: 18px;
+    color: var(--dark);
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+.edit-user:hover {
+    font-size: 20px;
+    color: var(--dark);
+    background-color: var(--white);
+    border-radius: 8px;
+}

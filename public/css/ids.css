@@ -1,0 +1,34 @@
+#post-data,
+#post-data-index {
+    overflow: scroll;
+}
+
+#post-data::-webkit-scrollbar,
+#post-data-index::-webkit-scrollbar {
+    width: 12px;
+}
+
+#post-data::-webkit-scrollbar-track,
+#post-data-index::-webkit-scrollbar-track {
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+#post-data::-webkit-scrollbar-thumb,
+#post-data-index::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+#post-data-index {
+    overflow: auto;
+    overflow: visible;
+}
+
+#parent #popup {
+    display: none;
+}
+
+#parent:hover #popup {
+    display: block;
+}

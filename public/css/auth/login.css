@@ -1,0 +1,12 @@
+.title-login,
+.info-login {
+    display: flex;
+}
+
+.container-area {
+    height: 100vh;
+}
+
+.invalid-message {
+    color: var(--soft-red);
+}

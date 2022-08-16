@@ -1,0 +1,54 @@
+.post {
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.post-head,
+.post-body {
+    box-shadow: 0 0 10px 5px var(--deep-dark-low);
+}
+
+.post-head,
+.post-body,
+.post-head-home,
+.post-body-home {
+    border-radius: 12px;
+    padding: 10px;
+    background-color: var(--deep-dark);
+}
+
+.post-head,
+.post-head-home {
+    margin-bottom: 5px;
+}
+
+.post-body,
+.post-body-home {
+    margin-top: 5px;
+}
+
+.post-user,
+.post-title,
+.post-text,
+.user-icon {
+    color: var(--white);
+}
+
+.post-header {
+    border-bottom: 2px solid var(--white);
+}
+
+.post-text {
+    min-height: 150px;
+}
+
+.post-created-at {
+    color: var(--grey);
+    border-top: 2px solid var(--white);
+}
+
+.post-text {
+    background: none;
+    border: none;
+    outline: none;
+}

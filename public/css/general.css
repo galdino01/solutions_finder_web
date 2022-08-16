@@ -1,0 +1,110 @@
+.bg-color-white {
+    background-color: var(--white);
+}
+
+.bg-color-dark {
+    background-color: var(--dark);
+}
+
+.bg-color-deep-dark {
+    background-color: var(--deep-dark);
+}
+
+.container-area {
+    width: 100vw;
+}
+
+.admin-area {
+    height: 100vh;
+}
+
+.header h1,
+.header span {
+    color: var(--white);
+}
+
+.header {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.return {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 120px;
+    background-color: var(--deep-dark);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--deep-dark);
+    z-index: 1000;
+}
+
+.go-to-top-admin {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--deep-dark);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--deep-dark);
+    z-index: 1000;
+}
+
+.go-to-top,
+.go-to-top-post {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: var(--white);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px var(--dark);
+    z-index: 1000;
+}
+
+.go-to-top:hover,
+.go-to-top-post:hover {
+    background-color: var(--grey);
+}
+
+.go-to-top-admin:hover,
+.return:hover {
+    background-color: var(--dark);
+}
+
+.go-to-top a,
+.go-to-top-post a,
+.go-to-top-admin a,
+.return a {
+    margin-top: 16px;
+}
+
+.go-to-top ion-icon,
+.go-to-top-post ion-icon {
+    color: var(--dark);
+}
+
+.go-to-top-admin ion-icon,
+.return ion-icon {
+    height: 100%;
+    color: var(--white);
+}
+
+.textarea-text {
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+    margin-top: 25px;
+    border: none;
+    background-color: var(--white);
+}
